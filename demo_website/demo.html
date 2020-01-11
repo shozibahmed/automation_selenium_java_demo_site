@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>demo site for testing</title>
+    <style>
+        body {
+            background-color: green;
+          
+        }
+
+        #nav-bar {
+            background: black;
+            color: aliceblue;
+
+            text-align:right;
+    
+            width: 100%;
+            position: fixed;
+            top: 0;
+            /* Keep at the very top of the viewport */
+            padding: 10px;
+            border: 10px;
+            
+        }
+
+        .nav-link {
+            color:white;
+           margin: auto;
+        
+        }
+        .nav-link:hover{
+            color: black;
+            background-color: white;
+        }
+
+        #footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            padding: 4px;
+        }
+        #footer:hover{
+            background-color: white;
+            color:black;
+        }
+
+        form {
+            display: block;
+            background-color: rgb(17, 160, 89);
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            height: 100%;
+
+
+        }
+
+        .info {
+            width: 100%;
+        }
+
+        #comment {
+            width: 100%;
+
+        }
+
+        #satisfaction {
+            display: inline;
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+        }
+
+        #info-group {
+
+            margin: 0 auto 1.25rem auto;
+
+            padding: 0.25rem;
+        }
+
+        #title,
+        #feedback {
+
+            color: black;
+            text-align: center;
+            width: 100%;
+            position: relative;
+
+            background-color: rgb(204, 207, 207);
+        }
+
+        #feedback {
+            color: green;
+
+
+        }
+    </style>
+
+    ''
+
+</head>
+
+<body>
+
+
+    <header id="header">
+        <img id="header-img" src="dsf" alt="header-img">
+        <nav id="nav-bar">
+           
+
+            <a class="nav-link" href="#1-link">Home</a>
+            <a class="nav-link" href="#footer">About</a>
+            <a class="nav-link" href="#info-group">Contact</a>
+           
+
+
+        </nav>
+
+
+
+
+    </header>
+    <h1 id="title">Demo Site For Testing</h1>
+
+
+
+
+    <form id="survey-form">
+        <p id="description">Please enter your information:</p>
+        <div id="info-group">
+            <label id="name-label">Name</label>
+            <input id="name" type="text" placeholder="Enter Name" required class="info">
+            <label id="email-label">Email</label>
+            <input id="email" type="email" placeholder="Enter Email" required class="info">
+
+            <label id="number-label">Number</label>
+
+
+            <input id="number" type="number" placeholder="Enter Number" class="info">
+
+        </div>
+        <div>
+            <p>Gender</p>
+            <select id="dropdown">
+                <option></option>
+
+                <option>Male</option>
+                <option>Female</option>
+
+
+
+            </select>
+        </div>
+        <div id="satisfaction">
+            <p>How much you were satisfied the service </p>
+
+            <label>
+                <input name="satisfaction" value="Satisfied" type="radio">Satisfied
+            </label>
+            <label>
+                <input name="satisfaction" value="Moderate" type="radio">Moderate
+            </label>
+            <label>
+                <input name="satisfaction" value="Not Satisfied" type="radio">Not Satisfied
+            </label>
+
+        </div>
+        <p id="recomodation">What would you like to see improved? (Check all that apply)</p>
+        <label><input name="recomodation" value="Response Fast" type="checkbox"> Check box</label>
+        <label><input name="recomodation" value="xyz" type="checkbox"> Check box</label>
+        <label><input name="recomodation" value="Response Fas" type="checkbox"> Check box</label>
+        <label><input name="recomodation" value="Response Fas" type="checkbox"> Check box</label>
+        <div>
+            <p>Any comments or suggetions</p>
+            <textarea id="comment" placeholder="Type your comments here.."></textarea>
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <button id="submit" type="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+    </form>
+
+    <footer id="footer">About</footer>
+
+
+</body>
+
+
+
+</html>

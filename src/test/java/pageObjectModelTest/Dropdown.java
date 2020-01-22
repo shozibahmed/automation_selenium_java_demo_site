@@ -34,6 +34,10 @@ public class Dropdown extends Driver {
         System.out.println(currentUrl);
 
     }
+    @Test
+    public void test3(){
+        System.out.println("test3");
+    }
 
 
 

@@ -46,7 +46,8 @@ public class Driver {
         //path of html file
         String path=System.getProperty("user.dir");
         String newPath=path.substring(0,path.lastIndexOf("\\"));
-        String htmlPath ="file:\\\\"+ newPath+"\\demo_website\\demo.html";
+        //String htmlPath ="file:\\\\"+ newPath+"\\demo_website\\
+        String htmlPath ="file:\\\\"+ path+"\\demo_website\\demo.html";
         driver.navigate().to(htmlPath);
 
         //driver.navigate().to("file:///C:/Users/Yusuf/Documents/automation_selenium_java_demo_site/demo_website/demo.html");

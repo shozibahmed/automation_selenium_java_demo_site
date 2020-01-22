@@ -32,7 +32,7 @@ public class Dropdown extends Driver {
         male.isDisplayed();
         String currentUrl= driver.getCurrentUrl();
         System.out.println(currentUrl);
-        
+
     }
 
 

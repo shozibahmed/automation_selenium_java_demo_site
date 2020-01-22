@@ -36,7 +36,7 @@ public class Dropdown extends Driver {
     }
     @Test
     public void test3(){
-        System.out.println("test3");
+        System.out.println("tet3");
     }
 
 

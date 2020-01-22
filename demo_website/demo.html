@@ -2,16 +2,28 @@
 <html>
 
 <head>
-    <title>demo site for testing</title>
+    <title>peace.org</title>
     <style>
         body {
-            background-color: green;
+            background-color: white;
           
         }
 
+    .logo{
+        position: fixed;
+        top:-30px;
+        color:white;     
+             
+    }
+    #title{
+        font-size: 30px;
+        
+    }
+
         #nav-bar {
-            background: black;
+            background:green;
             color: aliceblue;
+            left:0;
 
             text-align:right;
     
@@ -27,6 +39,8 @@
         .nav-link {
             color:white;
            margin: auto;
+           position: relative;
+           right:50px;
         
         }
         .nav-link:hover{
@@ -35,13 +49,14 @@
         }
 
         #footer {
-            background-color: black;
+            background-color: green;
             color: white;
             text-align: center;
             position: fixed;
             bottom: 0px;
             width: 100%;
             padding: 4px;
+            left:0;
         }
         #footer:hover{
             background-color: white;
@@ -84,7 +99,7 @@
             padding: 0.25rem;
         }
 
-        #title,
+        
         #feedback {
 
             color: black;
@@ -110,24 +125,34 @@
 
 
     <header id="header">
-        <img id="header-img" src="dsf" alt="header-img">
+        
         <nav id="nav-bar">
            
 
             <a class="nav-link" href="#1-link">Home</a>
             <a class="nav-link" href="#footer">About</a>
-            <a class="nav-link" href="#info-group">Contact</a>
+            <a class="nav-link" href="mailto:abc@peace.org">Email</a>
+            <a class="nav-link" href="/login.html" target="_blank">Log In</a>
+            
            
 
 
         </nav>
+        <div class="logo">
+            <p id="title">
+                <a  href="/demo.html">Peace</a>        
+                
+                
+                </p>
+
+        </div>
 
 
 
 
     </header>
-    <h1 id="title">Demo Site For Testing</h1>
-
+ 
+    
 
 
 
@@ -185,24 +210,13 @@
 
         </div>
 
-
-
-
-
-
         <button id="submit" type="submit">Submit</button>
-
-
-
-
-
-
-
-
 
     </form>
 
-    <footer id="footer">About</footer>
+    
+
+    <footer id="footer">About Us</footer>
 
 
 </body>

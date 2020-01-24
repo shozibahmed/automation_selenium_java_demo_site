@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.*;
 import pageObjectModel.pages.HomePage;
+import pageObjectModel.pages.LoginPage;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,6 +16,7 @@ public class Driver {
     protected WebDriver driver;
     protected BasePage basePage;
     protected HomePage homePage;
+    protected LoginPage loginPage;
 
 
 
@@ -39,6 +41,8 @@ public class Driver {
 
          basePage =new BasePage(driver);
        homePage=new HomePage(driver);
+       loginPage=new LoginPage(driver);
+
 
 
 

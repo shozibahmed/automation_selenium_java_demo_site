@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>sign in</title>
+    <title>sign-in-help</title>
     <style>
         /* main page*/
         body {
@@ -64,18 +64,41 @@
             color:black;
         }
         /*main page */
-        form{
-            position: fixed;
-            text-align: center;
-            left:45%;      
-            background-color: rgb(170, 238, 170);  
-            padding:30px;   
-            top:40px;
-        }
-        .sign-in-block{
-            text-align: left;
-            
-        }
+
+        .sign-in-block {
+                position: relative;
+                display: block;
+                background-color: rgb(170, 238, 170);  
+              
+                text-align: center; 
+                width: 20%;  
+                top:15px;  
+                left:40%;
+                padding:10px;
+               
+            }
+            form{
+                text-align: left;
+                padding:35px;
+                
+              
+                
+            }
+           
+
+            #inner_form{
+padding: 10px;
+
+
+            }
+.sign-in-image{
+    padding-bottom:12px;
+    height:124px;
+}
+img{
+    vertical-align: middle;
+border:0;}
+       
 
 
 
@@ -112,46 +135,54 @@
 
         </div>    
 
-
-
-
     </header>
 
 
+<!--
 
-
-    <form class="sign_in">
-        <img class="sign-in-image " src="images/icon-user.svg" alt="">
-        <p>Sign In</p>
-        <div class="sign-in-block">
-        <p>Username</p>
+    new page below
+-->
+<div class="sign-in-block">
+    <img class="sign-in-image " src="images/sign_in_help.png" alt="">
+    <h1>Let's verify it's you</h1>
+        <p>Start with entering some basic information.</p>
+   
+ 
+        
+        <form class="sign-in-help">
+        <p>First Name</p>
+        <input id="first_name" type="text" required>
+        <p>Last Name</p>
+        <input id="last_name" type="text" required>
+        <p>Email</p>
         <input id="email" type="text" required>
         
-        <p>Password</p>
-        <input id="password" type="password" minlength="8"  required>
- 
-        <div id="remember_me">
-        <input class="remember" type="checkbox">
-        <p>Remember Me</p>
-        </div>
-        <input id="sign_in" type="button" value="Sign In">
-        <div class="forgot">
-        <a id="forgot" href="/sign_in_help.html" >Forgot Username or Password ?</a>
-
+        
+        
        
-        </div>
-        <div class="create_account">
-            <a id="create_account" href="#"> Create Account</a> 
-        </div>
+        <div id="submit">
 
+            <input class="submit" type="button" value="Submit">
         </div>
+    
         
         
+       
        
     </form>
- 
-    
+    </div>
 
+
+
+
+
+
+
+    
+<!--
+
+    new page above
+-->
 
 
     <footer id="footer">About Us</footer>

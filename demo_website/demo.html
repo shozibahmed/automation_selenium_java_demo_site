@@ -118,6 +118,54 @@
 
 
         }
+        #image {
+  position: relative;
+  top: 0;
+  left: 40%;
+}
+.hunger_image {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 5px red solid;
+  z-index: 1;
+}
+.homeless_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px green solid;
+}
+
+
+ #image img.hunger_image{
+animation-name: anima;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}
+
+@keyframes anima{
+    0%{
+        opacity: 1;
+    }
+    45%{
+        opacity:1;
+        }
+        55%{
+            opacity: 0;
+        }
+        100%{opacity: 0;
+        }
+
+}
+
+
+
+
+
+        
     </style>
 
     ''
@@ -135,7 +183,7 @@
             <a class="nav-link" href="#1-link">Home</a>
             <a class="nav-link" href="#footer">About</a>
             <a class="nav-link" href="mailto:abc@peace.org">Email</a>
-            <a class="nav-link" href="/login.html" target="_blank">Log In</a>
+            <a class="nav-link" href="login.html" >Log In</a>
             
            
 
@@ -149,6 +197,8 @@
                 </p>
 
         </div>
+
+       
 
 
 
@@ -188,7 +238,7 @@
     </form>
     
         <div class="donate">
-            <p>Offer</p>
+            <p>I'm Offering :</p>
             <select id="donate">
                 <option></option>
                 <option>Employment</option>
@@ -207,7 +257,7 @@
         </div>
 
         <div class="Need">
-            <p>Need</p>
+            <p>I Need :</p>
             <select id="need">
                 <option></option>
 

@@ -10,14 +10,12 @@
 
         <classes>
 
-            <class name="pageObjectModelTest.HomePageTest">
+            <class name="pageObjectModelTest.LoginPageTest">
 
             </class>
 
         </classes>
 
     </test>
-
-
 
 </suite>

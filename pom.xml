@@ -99,7 +99,8 @@
 
                 <configuration>
 <suiteXmlFiles>
-                    <suiteXmlFile>testNGparallel.xml</suiteXmlFile>
+                    <suiteXmlFile>testNGRegressionTest.xml</suiteXmlFile>
+
 </suiteXmlFiles>
                 </configuration>
             </plugin>

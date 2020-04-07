@@ -10,7 +10,7 @@
 
         <classes>
 
-            <class name="pageObjectModelTest.Dropdown">
+            <class name="pageObjectModelTest.HomePageTest">
 
             </class>
 
@@ -24,7 +24,7 @@
 
         <classes>
 
-            <class name="pageObjectModelTest.Dropdown">
+            <class name="pageObjectModelTest.HomePageTest">
 
             </class>
 

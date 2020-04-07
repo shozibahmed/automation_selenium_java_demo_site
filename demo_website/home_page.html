@@ -19,6 +19,16 @@
         font-size: 30px;
         
     }
+    #page-header{        
+        color:green;
+        position:absolute;
+        left:800px;
+        
+       
+        top:20px;
+        font-size: 50px;
+
+    }
 
         #nav-bar {
             background:green;
@@ -118,48 +128,20 @@
 
 
         }
-        #image {
-  position: relative;
-  top: 0;
-  left: 40%;
-}
-.hunger_image {
-  position: relative;
-  top: 0;
-  left: 0;
-  border: 5px red solid;
-  z-index: 1;
-}
-.homeless_image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 5px green solid;
-}
+        
 
 
- #image img.hunger_image{
-animation-name: anima;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 2s;
-animation-direction: alternate;
-}
 
-@keyframes anima{
-    0%{
-        opacity: 1;
-    }
-    45%{
-        opacity:1;
-        }
-        55%{
-            opacity: 0;
-        }
-        100%{opacity: 0;
-        }
+#image{
+    position:relative;
+    left:20%;
 
 }
+div img{
+    position: absolute;
+    
+}
+
 
 
 
@@ -168,7 +150,7 @@ animation-direction: alternate;
         
     </style>
 
-    ''
+    
 
 </head>
 
@@ -191,7 +173,7 @@ animation-direction: alternate;
         </nav>
         <div class="logo">
             <p id="title">
-                <a  href="/demo.html">Peace</a>        
+                <a  href="/home_page.html">Peace</a>        
                 
                 
                 </p>
@@ -204,6 +186,9 @@ animation-direction: alternate;
 
 
     </header>
+    <div id="page-header">
+        <p>Help Your Neighbors</p>
+    </div>
  
     
 
@@ -273,8 +258,8 @@ animation-direction: alternate;
         </div>
 
         <div id="image">
-            <img class="hunger_image" src="images/hunger_kids_500x300.jpg" alt="hungry children"> 
-            <img class="homeless_image" src="images/homeless_man_1_500x300.jpg" alt="homeless man"> 
+            <img class="hunger_image" src="images/i_m_hungry.JPG" alt="hungry children"> 
+            <img class="homeless_image" src="images/homeless_man_1.jpg" alt="homeless man"> 
 
 
 

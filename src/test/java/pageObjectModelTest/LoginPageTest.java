@@ -13,6 +13,7 @@ public class LoginPageTest extends Driver {
         loginPage.inputEmail("ashik@gmail.com");
         loginPage.inputPassword("lsfjalf");
         Thread.sleep(5000);
+        driver.findElement(By.id("forgot")).click();
 
     }
 }
